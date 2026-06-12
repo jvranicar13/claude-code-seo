@@ -28,6 +28,9 @@ flowchart TD
 | Monthly | `/seo-cannibal yourdomain.com` | Pages competing against each other for the same query, with merge/differentiate calls |
 | Monthly | `/seo-llm-audit yourdomain.com` | Queries where LLMs cite you invisibly (Pos 1-10, zero clicks) — your AI-search footprint |
 | Entering a new topic | `/seo-cluster-expand "seed keyword"` | The semantic neighborhood: what to push, what to thin-start, what to skip |
+| A link/exchange offer comes in | `/seo-link-vet <their-domain>` | Accept / counter / decline verdict: does the linking page have real traffic, does the niche fit, is it a link farm |
+
+One operational rule across all of it: **7-day cooldown** — never touch the same page twice within a week. GSC needs time to register each change, and stacked edits make cause-and-effect unreadable.
 
 ## The five principles behind it
 

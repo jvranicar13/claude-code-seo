@@ -36,6 +36,7 @@ Common patterns to detect:
 - **Filter-parameters** (e.g. `/?city=austin` vs `/`): Server-side noindex on parameter URLs OR convert to canonical routes (`/jobs/austin`).
 - **Topical near-duplicates** (e.g. `/blog/best-pgadmin-alternatives` vs `/blog/best-postgresql-client`): Real competition between articles. Resolve by intent differentiation or 301 to master.
 - **Brand variants** (e.g. all subpages rank for own brand): Expected behavior, not a problem. Skip.
+- **SERP rotation (NOT cannibalization)**: pages alternating in the SERP over time, one visible at a time, combined visibility stable. Normal Google behavior — NO action needed. Only treat as true cannibalization when both pages are suppressed simultaneously (combined impressions sag while neither holds the position either page reached alone). Check the 28-90d trend before recommending any 301 — misclassifying rotation causes unnecessary redirects.
 
 ### Step 4: Action plan per conflict
 

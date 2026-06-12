@@ -40,6 +40,8 @@ Take the top ~25 **Owned** queries (Pos ≤ 7) by impressions and call `mcp__dat
 
 This number replaces the DR threshold for the rest of the run.
 
+**Position proves the ceiling; clicks prove authority.** A page at Pos ≤ 7 with zero clicks over the window still informs the ceiling (it demonstrates rankability), but it is NOT an authority source — never plan internal links FROM click-less pages (the click-gate in `/seo-next-content` enforces this).
+
 ### Step 3 — Cluster the footprint into authority centers
 Group Owned + Striking-distance queries into 3–6 topical clusters (by shared head terms / entities — e.g. for a database-tool product: "X vs Y db tool", "pgadmin/dbeaver alternative", "<db> client", "<tool> pricing").
 
@@ -69,6 +71,7 @@ For the realistic set, apply (cheap, no per-keyword AI):
 - **Funnel (Section 9):** BoF (vs / alternative / pricing / best / "for X") > MoF > ToF. BoF wins ties.
 - **Intent / CPC:** higher CPC = stronger commercial intent = higher priority.
 - **SERP validation** — for the top ~5 only, call `mcp__dataforseo__serp_organic_live_advanced` (location "United States", depth 10): if 6+ results are commercial/comparison → confirm BoF + decide doc type (blog vs landing vs comparison); if AI-Overview + Reddit/Wiki dominate → deprioritize.
+- **SERP composition adjusts the ceiling per keyword.** The flat ceiling is a prior; the live SERP is the posterior. KD 20 against 8 genuine topical authorities is harder than KD 36 where positions 4-8 are Reddit threads and generic listicles. Count the top 10: 4+ weak slots (forums, UGC, thin listicles) → treat effective difficulty one tier easier; wall-to-wall niche authorities → one tier harder, regardless of what KD says.
 - **Cannibalization:** if a realistic candidate is just a variant of a Striking-distance query → it's NOT a new page, it's a push on the existing page (route to that page, Section 5 "Pos 9-11 = integrate as H2").
 - **Freshness (Section 19):** year-sensitive terms ("best", "vs", current year) → current year in title/slug.
 

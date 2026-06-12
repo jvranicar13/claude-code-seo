@@ -1,6 +1,6 @@
 # claude-code-seo
 
-**An executable SEO system for [Claude Code](https://claude.com/claude-code): a 26-section knowledge base distilled from the most credible practitioners — plus 8 slash commands that turn it into live audits against your real Google Search Console and DataForSEO data.**
+**An executable SEO system for [Claude Code](https://claude.com/claude-code): a 26-section knowledge base distilled from the most credible practitioners — plus 9 slash commands that turn it into live audits against your real Google Search Console and DataForSEO data.**
 
 A while ago I posted in r/SEO about following [u/WebLinkr](https://www.reddit.com/user/WebLinkr/)'s advice and watching it work on my own site. A bunch of people asked me to share my notes. This is those notes — the full markdown file — plus the part that actually does the work: the Claude Code commands my SEO runs on.
 
@@ -35,7 +35,7 @@ knowledge-base/
                             the May 2024 Google leak and DOJ trial testimony — plus
                             field notes from experiments on my own sites, with the
                             actual numbers (Section 27).
-commands/                   8 slash commands for Claude Code:
+commands/                   9 slash commands for Claude Code:
 ├── seo-analyze.md          The front door: proven authority map + next 3-5 topics
 ├── seo-quick-wins.md       Pos 4-15 keywords one push from page one (+ country-split truth)
 ├── seo-next-content.md     Publish-ready briefs: slug, title, outline, link wiring in+out
@@ -43,7 +43,8 @@ commands/                   8 slash commands for Claude Code:
 ├── seo-cluster-expand.md   Semantic neighborhood scouting around a seed keyword
 ├── seo-re-eval.md          Old pages worth republishing (NavBoost 13-month window)
 ├── seo-cannibal.md         Pages competing against each other, with merge/differentiate calls
-└── seo-llm-audit.md        Where LLMs cite you invisibly (Pos 1-10, zero clicks)
+├── seo-llm-audit.md        Where LLMs cite you invisibly (Pos 1-10, zero clicks)
+└── seo-link-vet.md         Vet a backlink/exchange offer: real traffic, niche fit, or link farm?
 docs/
 ├── setup.md                MCP setup (GSC free, DataForSEO pay-per-call) — 15 minutes
 └── workflow.md             How the commands chain into one loop, with cadence

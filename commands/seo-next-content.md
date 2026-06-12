@@ -36,6 +36,8 @@ This identifies **Authority Hubs** — pages with most clicks. These are the can
 
 Tag the top-5 pages as "primary hubs" — they will be the senders.
 
+**Click-gate (hard rule):** a hub must have actual CLICKS — not just impressions or position. A page at Pos 4 with zero clicks in 28 days has no authority to donate. And **new pages need ~28 days of GSC data before they qualify as senders**: publish → wait → only pages with confirmed clicks become link sources. Never wire links FROM unproven pages.
+
 ### Step 2: Identify almost-there pages (link RECIPIENTS)
 Call `mcp__gsc__advanced_search_analytics`:
 - dimensions=["query", "page"]
@@ -94,6 +96,9 @@ For each of the final 3-5 recommendations, output a complete brief:
 3. [Edge cases / "What about X"]
 4. [Decision criteria — when to choose what]
 5. [CTA + product mention if commercial]
+
+### PAA satellite pages (Section 15)
+From the Step 6 SERP call, list the People-Also-Ask questions for this keyword. Each question = its OWN ~120-word page — exact-match title/slug/H1, NO FAQ accordion on the main page — linking back to this page. List 3-5: question → `/faq/[slug]`. For low-authority sites this is the cheapest topical-authority surface available.
 
 ### Product positioning (fact-checked — the conversion layer, from Step 0)
 This is what turns an info-page into a sale. Every claim traces to the fact-sheet.

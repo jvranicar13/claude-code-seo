@@ -52,6 +52,8 @@ For each quick-win, recommend ONE specific action:
 - **Re-Evaluation Republish** if Position 8-25 + KD<30 + page is >6 months old (route to /seo-re-eval)
 - **Skip** if phantom ranking (avg distorted by tail countries)
 
+> **7-day cooldown:** if a page was modified within the last 7 days, skip it this round — GSC needs time to register the change, and stacked edits make cause-and-effect unreadable.
+
 > **Internal-link relevance gate (Sections 1 + 26.3 — required whenever you recommend an "Internal link push"):** a link only passes authority if it's topically relevant. Require ALL four: (1) **anchor + surrounding paragraph match the target's topic** (Reasonable-Surfer Topical-Match — off-topic links carry ~0 weight, even from a strong hub); (2) a **user-bridge** — people searching the source page's topic also plausibly search the target's (Section 1 Topical Bridges; adjacent topics are fine, unrelated ones are not); (3) a **descriptive 2-5-word anchor** (not "click here", not a bare keyword); (4) placed **mid-paragraph, in-content** (never footer/sidebar/nav). In the recommendation, name the exact source page, the anchor, and the one-line bridge rationale — never just "add an internal link".
 
 ## Output Format
