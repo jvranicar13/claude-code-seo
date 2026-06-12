@@ -1,6 +1,6 @@
 ---
 description: Authority-first "new analysis" — derives your proven ranking ceiling from GSC, then recommends 3-5 next topics that expand from authority you ALREADY have (no DR gate)
-argument-hint: <domain or sc-domain:domain>
+argument-hint: "<domain or sc-domain:domain>"
 ---
 
 You are running an **Authority-First Content Analysis** for: **$ARGUMENTS**

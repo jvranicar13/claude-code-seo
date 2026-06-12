@@ -1,6 +1,6 @@
 ---
 description: Detect and resolve keyword cannibalization (multiple pages competing for same query)
-argument-hint: <domain or sc-domain:domain>
+argument-hint: "<domain or sc-domain:domain>"
 ---
 
 You are running a Cannibalization audit for: **$ARGUMENTS**

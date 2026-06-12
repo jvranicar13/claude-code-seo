@@ -1,6 +1,6 @@
 ---
 description: Find quick-win SEO opportunities for a domain (Pos 4-15 + high impressions, with country-split truth and SERP validation)
-argument-hint: <domain or sc-domain:domain>
+argument-hint: "<domain or sc-domain:domain>"
 ---
 
 You are running a SEO Quick-Wins audit for: **$ARGUMENTS**

@@ -1,6 +1,6 @@
 ---
 description: Find pages worth Re-Evaluation Republish (Pos 8-25 + KD<30 + Cluster grew since publish)
-argument-hint: <domain or sc-domain:domain>
+argument-hint: "<domain or sc-domain:domain>"
 ---
 
 You are running a Re-Evaluation Hack audit for: **$ARGUMENTS**

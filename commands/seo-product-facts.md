@@ -1,6 +1,6 @@
 ---
 description: Live-extract a code-verified product fact-sheet from a project's app + website repos. Pulled FRESH from source every run (no cache) — the truth layer that lets SEO briefs sell the tool without inventing features.
-argument-hint: [app-folder] [website-folder] — optional; auto-detects siblings
+argument-hint: "[app-folder] [website-folder] — optional; auto-detects siblings"
 ---
 
 You are extracting a **code-verified product fact-sheet** for: **$ARGUMENTS** (or the current project if no args).

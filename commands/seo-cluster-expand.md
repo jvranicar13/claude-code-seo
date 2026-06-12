@@ -1,6 +1,6 @@
 ---
 description: Discover semantic neighbor keywords to expand topical authority around a seed keyword
-argument-hint: <seed-keyword> [domain]
+argument-hint: "<seed-keyword> [domain]"
 ---
 
 You are running Topical Cluster Expansion for seed keyword: **$ARGUMENTS**

@@ -1,6 +1,6 @@
 ---
 description: Detect LLM Fan-Out queries (high impressions, near-zero clicks, Pos 1-10)
-argument-hint: <domain or sc-domain:domain>
+argument-hint: "<domain or sc-domain:domain>"
 ---
 
 You are running an LLM Fan-Out Visibility audit for: **$ARGUMENTS**

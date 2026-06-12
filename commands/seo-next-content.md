@@ -1,6 +1,6 @@
 ---
 description: Recommend the next 3-5 content pieces to publish with full publish plan (slug, title, outline, internal link plan in+out)
-argument-hint: <domain or sc-domain:domain>
+argument-hint: "<domain or sc-domain:domain>"
 ---
 
 You are running a Content-Action audit for: **$ARGUMENTS**
