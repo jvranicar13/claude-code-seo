@@ -54,3 +54,10 @@ Day 28   /seo-re-eval + /seo-llm-audit · re-run /seo-analyze if picks are exhau
 ```
 
 Expectation management (Section 19): new pages index in 1-2 weeks, reach Pos 10-15 in 4-8 weeks *if the internal linking is executed*, and get their real NavBoost evaluation over ~13 months of click data. SEO compounds; the loop is designed to be run, not admired.
+
+## Running this for clients?
+
+This system was built by a solo dev for his own sites — two additions make sense if you run it for clients (suggested by the community):
+
+- **State tracking:** keep a small per-client log (JSON or markdown) of when each command last ran, which pages were modified, and what was already recommended — prevents re-recommending links you already placed and lets you skip commands when nothing changed.
+- **Dual reporting:** the command output is operator-speak. Translate the verdicts into plain English for the client ("we moved page X from page 2 to page 1 by adding one link from your most-visited article"), and keep the raw output as your working log.
