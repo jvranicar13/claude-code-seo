@@ -32,7 +32,9 @@ knowledge-base/
                             Thin Starter Pages, Authority Shaping, the Re-Evaluation
                             republish hack, pSEO, CTR-as-signal, backlink quality —
                             down to the T*/Q*/P* ranking architecture confirmed by
-                            the May 2024 Google leak and DOJ trial testimony.
+                            the May 2024 Google leak and DOJ trial testimony — plus
+                            field notes from experiments on my own sites, with the
+                            actual numbers (Section 27).
 commands/                   8 slash commands for Claude Code:
 ├── seo-analyze.md          The front door: proven authority map + next 3-5 topics
 ├── seo-quick-wins.md       Pos 4-15 keywords one push from page one (+ country-split truth)

@@ -1115,6 +1115,8 @@ Supporting content (builds Topical Authority)
 
 **Source:** u/WebLinkr, David Quaid's Authority Shaping framework
 
+**Live example with real numbers: Section 27.2** — one in-content link from a power page moved a stuck page from position 13.8 to 5.4.
+
 ---
 
 ## 18. THIN STARTER PAGES
@@ -1577,6 +1579,8 @@ LLMs (ChatGPT, Perplexity, Gemini) scrape and index news sources and press-relea
 - **"How do I index my backlinks?"** → Fundamentally wrong question. Like "How do I clean my gasoline?" — if you buy cheap gas, you are not helping yourself.
 - If a backlink needs to be indexed, it is not from a real page with real traffic
 
+**Live example with real numbers: Section 27.1** — a DR-70 directory link whose page has no traffic of its own = zero effect.
+
 ---
 
 ## 26. T\*/Q\*/P\* ARCHITECTURE + TWIDDLER SYSTEM (May 2024 Leak + DOJ Trial)
@@ -1876,3 +1880,40 @@ Hard to approximate without Google-internal data (document as known limits rathe
 - Section 25 (Backlink quality, DA90) → 26.3 link graph (`homepagePagerankNs` ≠ `siteAuthority`)
 
 **Source:** David Quaid (Primary Position SEO)
+
+---
+
+## 27. FIELD NOTES — TESTED ON MY OWN SITES
+
+The sections above are distilled from other people's work. This one is different: things I ran on my own (small) sites, with the numbers I actually saw. Sample size = 1, treat accordingly — but these are the experiments that turned the theory above from "sounds plausible" into "watched it happen". More get added as I run them.
+
+### 27.1 The DR-70 directory link that does nothing (yet)
+
+**The setup:** Startup directories advertise "DR 70+ dofollow backlink". I listed one of my products on TrustMRR. The domain looks great on paper — per DataForSEO it pulls ~2,400 organic clicks/month and ranks for plenty of keywords (probably more; these tools aren't 100% accurate).
+
+**The catch:** the page my link actually sits on neither ranks nor has any traffic of its own.
+
+**What Section 25 predicts:** a link only transfers authority if the linking PAGE itself ranks and earns clicks. Domain-level numbers are a homepage assumption.
+
+**What happened:** nothing. The link's current SEO value is ~zero. DR went up (number go up, feels nice) — rankings did not move.
+
+**The nuance worth keeping:** this is "yet", not "never". If that listing page ever starts ranking and earning clicks, the link becomes genuinely valuable at that moment — and the reverse holds too: a link from a DR-0 page WITH real clicks is super valuable today. A directory listing is a lottery ticket on the page's future, not a transfer of the domain's present.
+
+**Lesson: evaluate the page that carries your link, never the domain.**
+
+### 27.2 The internal-link push, measured: position 13.8 → 5.4
+
+**The setup (Section 17 in action):**
+- My "power page" — the most organic clicks on the site after the homepage.
+- A second page ranking for a commercially important keyword, stuck around **position 13.8** (GSC) — squarely in the 10-20 "almost there" zone.
+
+**The action:** ONE in-content link from the power page to the stuck page. Conditions checked first:
+1. **Contextual bridge** — the test: would a user who clicks for the power page's keyword plausibly also click for the target's keyword? Yes → the link makes sense (Section 1, Topical Bridges).
+2. Target sits in the **position 10-20 zone** — not at 90 (too early, the authority evaporates), not at 1-3 (doesn't need it).
+3. The power page keeps **few outbound links** — every additional outlink dilutes the flow per link. The power page itself doesn't suffer no matter how many links it carries; only what it passes on thins out (Section 5).
+
+**What happened:** the stuck page climbed from **position 13.8 to 5.4** over the following weeks. Page two to top half of page one.
+
+**Lesson: internal links from pages that earn clicks are the cheapest authority you own. Route them deliberately — contextual, into the 10-20 zone, few at a time.**
+
+---
