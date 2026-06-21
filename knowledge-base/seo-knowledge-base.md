@@ -968,6 +968,16 @@ Example output for a cyber security agency:
 
 → If you have little authority, you need maximum relevance. You only get that with a dedicated page per question.
 
+### "Isn't 120 words useless to the visitor?"
+
+The most common objection (raised by [u/CaitlinHuxley](https://www.reddit.com/user/CaitlinHuxley/)) — and it comes from picturing the page as a *destination*. It isn't one. It's an *answer*.
+
+- **Google is content-agnostic (Section 16):** it rewards answering the query, not word count. Someone who searched that exact question and gets a direct answer in the first two sentences — instead of scrolling through 2,000 words of filler — got a *better* experience, not a worse one.
+- **It's a doorway, not a dead end:** every FAQ page links back to the main guide. The visitor who wants depth is one click away. The page captures a long-tail / Featured-Snippet visitor you'd never win on the head term, then hands them to your real content.
+- **The page's job is relevance, not depth.** For a low-authority site, maximum relevance to one exact question is the *only* lever that ranks (the ad-rank math above). Depth is what the parent article is for.
+
+**The caveat that makes or breaks it:** this only works as a *spoke in a hub*. A 120-word page that answers a genuinely distinct question and links up to its parent = topical-authority builder. A 120-word page with no parent, or a near-duplicate of its siblings = thin content, and Google treats it as exactly that. Never ship these as orphans (see the ❌ list below).
+
 ### Structure for FAQ pages
 
 **URL structure:**
