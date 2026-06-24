@@ -8,6 +8,14 @@
         "GSC_OAUTH_SECRETS_FILE": "C:\\Users\\Jonathan.Vranicar\\Downloads\\client_secret_920647148977-rad18sglhp8vh6rkle8078v6p338pqf2.apps.googleusercontent.com.json",
         "GSC_SITE_URL": "sc-domain:childrenshospitals.org"
       }
+    },
+    "dataforseo": {
+      "command": "npx",
+      "args": ["dataforseo-mcp-server"],
+      "env": {
+        "DATAFORSEO_USERNAME": "jovranicar@yahoo.com",
+        "DATAFORSEO_PASSWORD": "e3d950edea5111ba"
+      }
     }
   }
 }
