@@ -10,8 +10,8 @@
       }
     },
     "dataforseo": {
-      "command": "npx",
-      "args": ["dataforseo-mcp-server"],
+      "command": "dataforseo-mcp-server",
+      "args": [],
       "env": {
         "DATAFORSEO_USERNAME": "jovranicar@yahoo.com",
         "DATAFORSEO_PASSWORD": "e3d950edea5111ba"
