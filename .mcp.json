@@ -5,7 +5,7 @@
       "args": ["-y", "suganthan-gsc-mcp"],
       "env": {
         "GSC_AUTH_MODE": "oauth",
-        "GSC_OAUTH_SECRETS_FILE": "C:\\Users\\Jonathan.Vranicar\\Downloads\\client_secret_920647148977-rad18sglhp8vh6rkle8078v6p338pqf2.apps.googleusercontent.com.json",
+        "GSC_OAUTH_SECRETS_FILE": "/home/user/claude-code-seo/secrets/client_secret.json",
         "GSC_SITE_URL": "sc-domain:childrenshospitals.org"
       }
     },
