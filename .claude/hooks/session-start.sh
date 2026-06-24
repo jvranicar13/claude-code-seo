@@ -5,6 +5,9 @@ if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
   exit 0
 fi
 
+# Install DataForSEO MCP server globally so it's available without npx download delay
+npm install -g dataforseo-mcp-server --prefer-offline 2>/dev/null || npm install -g dataforseo-mcp-server
+
 # Install slash commands into Claude's user commands directory
 mkdir -p ~/.claude/commands
 cp "$CLAUDE_PROJECT_DIR"/commands/*.md ~/.claude/commands/
