@@ -1,4 +1,7 @@
 {
+  "env": {
+    "GSC_OAUTH_SECRETS_FILE": "/tmp/claude-0/-home-user-claude-code-seo/c6a543c2-0bb6-59a5-8045-fbd2cf0d451e/scratchpad/gsc_client_secrets.json"
+  },
   "hooks": {
     "SessionStart": [
       {
