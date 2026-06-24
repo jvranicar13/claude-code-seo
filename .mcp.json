@@ -6,7 +6,7 @@
       "env": {
         "GSC_AUTH_MODE": "oauth",
         "GSC_OAUTH_SECRETS_FILE": "/home/user/claude-code-seo/secrets/client_secret.json",
-        "GSC_SITE_URL": "sc-domain:childrenshospitals.org"
+        "GSC_SITE_URL": "https://www.childrenshospitals.org/"
       }
     },
     "dataforseo": {
