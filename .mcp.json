@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "gsc": {
+      "command": "npx",
+      "args": ["-y", "suganthan-gsc-mcp"],
+      "env": {
+        "GSC_AUTH_MODE": "oauth",
+        "GSC_OAUTH_SECRETS_FILE": "/home/user/claude-code-seo/secrets/client_secret.json",
+        "GSC_SITE_URL": "https://www.childrenshospitals.org/"
+      }
+    },
+    "dataforseo": {
+      "command": "npx",
+      "args": ["dataforseo-mcp-server"],
+      "env": {
+        "DATAFORSEO_USERNAME": "jovranicar@yahoo.com",
+        "DATAFORSEO_PASSWORD": "e3d950edea5111ba"
+      }
+    }
+  }
+}
